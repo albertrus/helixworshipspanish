@@ -1,4 +1,22 @@
-pytest>=7.0
-pyyaml>=6.0
-jinja2>=3.1
-requests>=2.31
+# Python dependencies for Helix preset tools
+# Run: pip install -r requirements.txt
+
+# Core utilities
+pathlib2==2.3.7
+
+# CLI and formatting
+click==8.1.7
+rich==13.7.0
+colorama==0.4.6
+
+# Testing
+pytest==7.4.3
+pytest-cov==4.1.0
+
+# Code quality
+black==23.11.0
+flake8==6.1.0
+mypy==1.7.1
+
+# Optional: If working with compressed files
+zipfile36==0.1.3
