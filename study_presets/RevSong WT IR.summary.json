@@ -1,0 +1,348 @@
+{
+  "name": "RevSong WT IR",
+  "application": "HX Edit",
+  "tempo": 63,
+  "current_snapshot": 0,
+  "dsp0": [
+    {
+      "slot": "block0",
+      "model": "HD2_CompressorDeluxeComp",
+      "position": 0,
+      "enabled": true,
+      "type": 0
+    },
+    {
+      "slot": "block1",
+      "model": "HD2_DistHeirApparent",
+      "position": 2,
+      "enabled": false,
+      "type": 0
+    },
+    {
+      "slot": "block2",
+      "model": "HD2_DistScream808",
+      "position": 3,
+      "enabled": false,
+      "type": 0
+    },
+    {
+      "slot": "block3",
+      "model": "HD2_VolPanVol",
+      "position": 4,
+      "enabled": true,
+      "type": 0
+    },
+    {
+      "slot": "block4",
+      "model": "HD2_AmpMatchstickCh1",
+      "position": 5,
+      "enabled": true,
+      "type": 1
+    },
+    {
+      "slot": "block7",
+      "model": "HD2_ImpulseResponse1024",
+      "position": 6,
+      "enabled": true,
+      "type": 5
+    },
+    {
+      "slot": "block5",
+      "model": "HD2_ImpulseResponse1024",
+      "position": 6,
+      "enabled": true,
+      "type": 5
+    },
+    {
+      "slot": "block6",
+      "model": "HD2_CaliQ",
+      "position": 7,
+      "enabled": true,
+      "type": 0
+    }
+  ],
+  "dsp1": [
+    {
+      "slot": "block0",
+      "model": "HD2_TremoloTremolo",
+      "position": 0,
+      "enabled": false,
+      "type": 0
+    },
+    {
+      "slot": "block1",
+      "model": "HD2_DelayTransistorTape",
+      "position": 1,
+      "enabled": true,
+      "type": 7
+    },
+    {
+      "slot": "block2",
+      "model": "HD2_DelayAdriaticDelay",
+      "position": 2,
+      "enabled": true,
+      "type": 7
+    },
+    {
+      "slot": "block3",
+      "model": "HD2_DelayTransistorTape",
+      "position": 3,
+      "enabled": true,
+      "type": 7
+    },
+    {
+      "slot": "block4",
+      "model": "HD2_ReverbPlate",
+      "position": 4,
+      "enabled": true,
+      "type": 7
+    },
+    {
+      "slot": "block5",
+      "model": "HD2_ReverbGlitz",
+      "position": 5,
+      "enabled": true,
+      "type": 7
+    },
+    {
+      "slot": "block6",
+      "model": "HD2_ReverbGlitz",
+      "position": 6,
+      "enabled": true,
+      "type": 7
+    },
+    {
+      "slot": "block7",
+      "model": "HD2_VolPanGain",
+      "position": 7,
+      "enabled": false,
+      "type": 0
+    }
+  ],
+  "snapshots": [
+    {
+      "index": 0,
+      "name": "SWELLS",
+      "tempo": 71.77033233642578,
+      "blocks": {
+        "dsp1": {
+          "block0": false,
+          "block1": true,
+          "block2": true,
+          "block3": true,
+          "block4": true,
+          "block5": true,
+          "block6": true,
+          "block7": false
+        },
+        "dsp0": {
+          "block0": true,
+          "block1": false,
+          "block2": false,
+          "block3": true,
+          "block4": true,
+          "block5": true,
+          "block6": true,
+          "block7": true,
+          "split": true
+        }
+      }
+    },
+    {
+      "index": 1,
+      "name": "CLEAN AMBI",
+      "tempo": 71.77033233642578,
+      "blocks": {
+        "dsp1": {
+          "block0": false,
+          "block1": true,
+          "block2": true,
+          "block3": false,
+          "block4": false,
+          "block5": true,
+          "block6": false,
+          "block7": false
+        },
+        "dsp0": {
+          "block0": true,
+          "block1": false,
+          "block2": false,
+          "block3": true,
+          "block4": true,
+          "block5": true,
+          "block6": true,
+          "block7": true,
+          "split": true
+        }
+      }
+    },
+    {
+      "index": 2,
+      "name": "RHYTHM",
+      "tempo": 71.77033233642578,
+      "blocks": {
+        "dsp1": {
+          "block0": false,
+          "block1": false,
+          "block2": true,
+          "block3": false,
+          "block4": true,
+          "block5": false,
+          "block6": false,
+          "block7": false
+        },
+        "dsp0": {
+          "block0": true,
+          "block1": true,
+          "block2": false,
+          "block3": true,
+          "block4": true,
+          "block5": true,
+          "block6": true,
+          "block7": true,
+          "split": true
+        }
+      }
+    },
+    {
+      "index": 3,
+      "name": "RHYTHM +",
+      "tempo": 71.77033233642578,
+      "blocks": {
+        "dsp1": {
+          "block0": false,
+          "block1": false,
+          "block2": true,
+          "block3": false,
+          "block4": true,
+          "block5": false,
+          "block6": false,
+          "block7": false
+        },
+        "dsp0": {
+          "block0": true,
+          "block1": true,
+          "block2": false,
+          "block3": true,
+          "block4": true,
+          "block5": true,
+          "block6": true,
+          "block7": true,
+          "split": true
+        }
+      }
+    },
+    {
+      "index": 4,
+      "name": "SOLO",
+      "tempo": 71.77033233642578,
+      "blocks": {
+        "dsp1": {
+          "block0": false,
+          "block1": false,
+          "block2": true,
+          "block3": false,
+          "block4": true,
+          "block5": false,
+          "block6": false,
+          "block7": true
+        },
+        "dsp0": {
+          "block0": true,
+          "block1": false,
+          "block2": true,
+          "block3": true,
+          "block4": true,
+          "block5": true,
+          "block6": true,
+          "block7": true,
+          "split": true
+        }
+      }
+    },
+    {
+      "index": 5,
+      "name": "-",
+      "tempo": 71.77033233642578,
+      "blocks": {
+        "dsp1": {
+          "block0": false,
+          "block1": true,
+          "block2": true,
+          "block3": false,
+          "block4": false,
+          "block5": true,
+          "block6": false,
+          "block7": false
+        },
+        "dsp0": {
+          "block0": true,
+          "block1": false,
+          "block2": false,
+          "block3": true,
+          "block4": true,
+          "block5": true,
+          "block6": true,
+          "block7": true,
+          "split": true
+        }
+      }
+    },
+    {
+      "index": 6,
+      "name": "-",
+      "tempo": 71.77033233642578,
+      "blocks": {
+        "dsp1": {
+          "block0": false,
+          "block1": true,
+          "block2": true,
+          "block3": false,
+          "block4": false,
+          "block5": true,
+          "block6": false,
+          "block7": false
+        },
+        "dsp0": {
+          "block0": true,
+          "block1": false,
+          "block2": false,
+          "block3": true,
+          "block4": true,
+          "block5": true,
+          "block6": true,
+          "block7": true,
+          "split": true
+        }
+      }
+    },
+    {
+      "index": 7,
+      "name": "-",
+      "tempo": 71.77033233642578,
+      "blocks": {
+        "dsp1": {
+          "block0": false,
+          "block1": true,
+          "block2": true,
+          "block3": false,
+          "block4": false,
+          "block5": true,
+          "block6": false,
+          "block7": false
+        },
+        "dsp0": {
+          "block0": true,
+          "block1": false,
+          "block2": false,
+          "block3": true,
+          "block4": true,
+          "block5": true,
+          "block6": true,
+          "block7": true,
+          "split": true
+        }
+      }
+    }
+  ]
+}
