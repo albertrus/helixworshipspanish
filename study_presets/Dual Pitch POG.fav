@@ -1,0 +1,29 @@
+{
+  "version" : 1,
+  "data" : {
+    "meta" : {
+      "name" : "Dual Pitch POG"
+    },
+    "device" : 2162689,
+    "favorite" : {
+      "slot0" : {
+        "@model" : "HD2_PitchDualPitch",
+        "Cents1" : 0,
+        "Interval2" : -12,
+        "Time1" : 0,
+        "@enabled" : false,
+        "@type" : 0,
+        "Mix" : 0.37000000476837158,
+        "LevelVoice1" : 1,
+        "LevelVoice2" : 0.37999999523162842,
+        "Interval1" : 12,
+        "Level" : 2.2999992370605469,
+        "@stereo" : false,
+        "Time2" : 0,
+        "Cents2" : 0
+      }
+    },
+    "device_version" : 50331648
+  },
+  "schema" : "L6ModelFavorite"
+}

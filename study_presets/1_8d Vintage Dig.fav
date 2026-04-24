@@ -1,0 +1,36 @@
+{
+  "version" : 1,
+  "data" : {
+    "meta" : {
+      "name" : "1\/8d Vintage Dig"
+    },
+    "device" : 2162689,
+    "favorite" : {
+      "slot0" : {
+        "@model" : "HD2_DelayVintageDigitalV2",
+        "Rate" : 0.20000004768371582,
+        "SampleRate" : 3,
+        "Feedback" : 0.56999993324279785,
+        "SyncSelect1" : 8,
+        "TempoSync1" : true,
+        "BitDepth" : 7,
+        "@enabled" : true,
+        "Scale" : 1,
+        "@trails" : true,
+        "@type" : 7,
+        "Mix" : 0.31999993324279785,
+        "Headroom" : 0,
+        "Time" : 0.5,
+        "Level" : 0,
+        "@stereo" : true,
+        "Depth" : 0.14999997615814209
+      },
+      "bypass" : {
+        "@fs_momentary" : false,
+        "@fs_index" : 2
+      }
+    },
+    "device_version" : 50331648
+  },
+  "schema" : "L6ModelFavorite"
+}

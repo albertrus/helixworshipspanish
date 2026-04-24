@@ -1,0 +1,26 @@
+{
+  "version" : 1,
+  "data" : {
+    "meta" : {
+      "name" : "808 - Push"
+    },
+    "device" : 2162689,
+    "favorite" : {
+      "slot0" : {
+        "@model" : "HD2_DistScream808",
+        "@type" : 0,
+        "@stereo" : false,
+        "Gain" : 0.24000000953674316,
+        "Level" : 0.96000003814697266,
+        "Tone" : 0.63999998569488525,
+        "@enabled" : false
+      },
+      "bypass" : {
+        "@fs_momentary" : false,
+        "@fs_index" : 8
+      }
+    },
+    "device_version" : 50331648
+  },
+  "schema" : "L6ModelFavorite"
+}

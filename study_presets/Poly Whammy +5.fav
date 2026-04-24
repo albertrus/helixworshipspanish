@@ -1,0 +1,29 @@
+{
+  "version" : 1,
+  "data" : {
+    "meta" : {
+      "name" : "Poly Whammy +5"
+    },
+    "device" : 2162689,
+    "favorite" : {
+      "slot0" : {
+        "@model" : "L6SPB_PolyWham",
+        "AutoEQ" : 0.70000004768371582,
+        "HeelShift" : 0,
+        "@type" : 0,
+        "ToeShift" : 5,
+        "Position" : 1,
+        "Level" : 0,
+        "Mix" : 0.70000004768371582,
+        "@enabled" : true,
+        "Tracking" : 3
+      },
+      "bypass" : {
+        "@fs_momentary" : false,
+        "@fs_index" : 13
+      }
+    },
+    "device_version" : 50331648
+  },
+  "schema" : "L6ModelFavorite"
+}

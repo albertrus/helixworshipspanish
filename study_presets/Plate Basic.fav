@@ -1,0 +1,29 @@
+{
+  "version" : 1,
+  "data" : {
+    "meta" : {
+      "name" : "Plate Basic"
+    },
+    "device" : 2162689,
+    "favorite" : {
+      "slot0" : {
+        "@model" : "HD2_ReverbPlate",
+        "LowCut" : 130,
+        "Decay" : 0.47000002861022949,
+        "@type" : 7,
+        "Mix" : 0.26999998092651367,
+        "Predelay" : 0.14199995994567871,
+        "@trails" : true,
+        "Level" : 0,
+        "@enabled" : true,
+        "HighCut" : 12800
+      },
+      "bypass" : {
+        "@fs_momentary" : false,
+        "@fs_index" : 10
+      }
+    },
+    "device_version" : 50331648
+  },
+  "schema" : "L6ModelFavorite"
+}

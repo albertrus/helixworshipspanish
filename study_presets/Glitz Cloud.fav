@@ -1,0 +1,37 @@
+{
+  "version" : 1,
+  "data" : {
+    "meta" : {
+      "name" : "Glitz Cloud"
+    },
+    "device" : 2162689,
+    "favorite" : {
+      "slot0" : {
+        "Predelay" : 0.10399997234344482,
+        "@model" : "HD2_ReverbGlitz",
+        "Mod Mix" : 0.56999993324279785,
+        "Rate" : 1.8400001525878906,
+        "SyncSelect1" : 6,
+        "LowCut" : 130,
+        "TempoSync1" : false,
+        "Xover" : 4800,
+        "@enabled" : true,
+        "@trails" : true,
+        "@type" : 7,
+        "Delay" : 0.06400001049041748,
+        "Mix" : 0.23000001907348633,
+        "Level" : 0,
+        "@stereo" : true,
+        "Decay" : 0.71000003814697266,
+        "HighCut" : 8600,
+        "Depth" : 0.5
+      },
+      "bypass" : {
+        "@fs_momentary" : false,
+        "@fs_index" : 11
+      }
+    },
+    "device_version" : 50331648
+  },
+  "schema" : "L6ModelFavorite"
+}

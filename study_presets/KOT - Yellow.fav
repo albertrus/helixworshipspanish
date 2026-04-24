@@ -1,0 +1,30 @@
+{
+  "version" : 1,
+  "data" : {
+    "meta" : {
+      "name" : "KOT - Yellow"
+    },
+    "device" : 2162689,
+    "favorite" : {
+      "slot0" : {
+        "@model" : "HD2_DistHeirApparent",
+        "Voltage" : true,
+        "@type" : 0,
+        "@stereo" : false,
+        "Gain" : 0.37000000476837158,
+        "Clipping" : 0,
+        "GainMod" : 0,
+        "Level" : 0.93000006675720215,
+        "Tone" : 0.37999999523162842,
+        "@enabled" : false,
+        "Presence" : 0.16999995708465576
+      },
+      "bypass" : {
+        "@fs_momentary" : false,
+        "@fs_index" : 7
+      }
+    },
+    "device_version" : 50331648
+  },
+  "schema" : "L6ModelFavorite"
+}

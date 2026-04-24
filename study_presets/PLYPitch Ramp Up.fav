@@ -1,0 +1,37 @@
+{
+  "version" : 1,
+  "data" : {
+    "meta" : {
+      "name" : "PLYPitch Ramp Up"
+    },
+    "device" : 2162689,
+    "favorite" : {
+      "slot0" : {
+        "@model" : "L6SPB_PolyPitch",
+        "Interval" : 12,
+        "ReturnCurve" : -2,
+        "RiseFallSwitch" : false,
+        "SyncSelect1" : 6,
+        "SyncSelect2" : 6,
+        "TempoSync1" : true,
+        "@enabled" : true,
+        "Tracking" : 3,
+        "@type" : 0,
+        "AutoEQ" : 0.56999993324279785,
+        "Cents" : 0,
+        "Mix" : 0.66000008583068848,
+        "ShiftCurve" : -2,
+        "ReturnTime" : 0,
+        "ShiftTime" : 0,
+        "Level" : 0,
+        "TempoSync2" : true
+      },
+      "bypass" : {
+        "@fs_momentary" : false,
+        "@fs_index" : 5
+      }
+    },
+    "device_version" : 50331648
+  },
+  "schema" : "L6ModelFavorite"
+}

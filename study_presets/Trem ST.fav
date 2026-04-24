@@ -1,0 +1,31 @@
+{
+  "version" : 1,
+  "data" : {
+    "meta" : {
+      "name" : "Trem ST"
+    },
+    "device" : 2162689,
+    "favorite" : {
+      "slot0" : {
+        "@model" : "HD2_TremoloTremolo",
+        "SyncSelect1" : 6,
+        "TempoSync1" : false,
+        "Intensity" : 0.79999995231628418,
+        "Speed" : 3.5,
+        "@enabled" : true,
+        "DutyCycle" : 0.5,
+        "@type" : 0,
+        "Level" : 2,
+        "@stereo" : true,
+        "Spread" : 0.60000002384185791,
+        "WaveShape" : 3
+      },
+      "bypass" : {
+        "@fs_momentary" : false,
+        "@fs_index" : 4
+      }
+    },
+    "device_version" : 50331648
+  },
+  "schema" : "L6ModelFavorite"
+}

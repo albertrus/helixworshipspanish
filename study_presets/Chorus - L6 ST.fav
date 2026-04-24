@@ -1,0 +1,33 @@
+{
+  "version" : 1,
+  "data" : {
+    "meta" : {
+      "name" : "Chorus - L6 ST"
+    },
+    "device" : 2162689,
+    "favorite" : {
+      "slot0" : {
+        "WaveShape" : 3,
+        "@model" : "HD2_Chorus",
+        "SyncSelect1" : 6,
+        "TempoSync1" : false,
+        "Speed" : 0.35000002384185791,
+        "@enabled" : true,
+        "@type" : 0,
+        "Mix" : 0.53999996185302734,
+        "Tone" : 0.44000005722045898,
+        "Level" : 0.70000076293945312,
+        "@stereo" : true,
+        "Spread" : 1,
+        "Predelay" : 0.45000004768371582,
+        "Depth" : 0.5
+      },
+      "bypass" : {
+        "@fs_momentary" : false,
+        "@fs_index" : 5
+      }
+    },
+    "device_version" : 50331648
+  },
+  "schema" : "L6ModelFavorite"
+}

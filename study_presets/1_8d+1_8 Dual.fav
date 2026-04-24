@@ -1,0 +1,40 @@
+{
+  "version" : 1,
+  "data" : {
+    "meta" : {
+      "name" : "1\/8d+1\/8 Dual"
+    },
+    "device" : 2162689,
+    "favorite" : {
+      "slot0" : {
+        "Depth" : 0.10000002384185791,
+        "@trails" : true,
+        "MixR" : 0.39999997615814209,
+        "@enabled" : true,
+        "@type" : 7,
+        "Speed" : 0.04999995231628418,
+        "LeftFeedback" : 0.72000002861022949,
+        "SyncSelect2" : 8,
+        "SyncSelect1" : 9,
+        "@model" : "HD2_DelayDualDelay",
+        "LowCut" : 88,
+        "Level" : 0,
+        "Spread" : 1,
+        "MixL" : 0.43000006675720215,
+        "HighCut" : 4200,
+        "ModulationMode" : 0,
+        "Right Time" : 0.5,
+        "TempoSync1" : true,
+        "Left Time" : 0.375,
+        "RightFeedback" : 0.64999997615814209,
+        "TempoSync2" : true
+      },
+      "bypass" : {
+        "@fs_momentary" : false,
+        "@fs_index" : 3
+      }
+    },
+    "device_version" : 50331648
+  },
+  "schema" : "L6ModelFavorite"
+}

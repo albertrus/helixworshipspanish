@@ -1,0 +1,26 @@
+{
+  "version" : 1,
+  "data" : {
+    "meta" : {
+      "name" : "DLX Comp Subtle"
+    },
+    "device" : 2162689,
+    "favorite" : {
+      "slot0" : {
+        "@model" : "HD2_CompressorDeluxeComp",
+        "Attack" : 0.050999999046325684,
+        "Knee" : 6,
+        "@type" : 0,
+        "@stereo" : false,
+        "Ratio" : 2,
+        "Threshold" : -36,
+        "Level" : 4,
+        "Mix" : 0.74000000953674316,
+        "@enabled" : true,
+        "Release" : 0.5969998836517334
+      }
+    },
+    "device_version" : 50331648
+  },
+  "schema" : "L6ModelFavorite"
+}
