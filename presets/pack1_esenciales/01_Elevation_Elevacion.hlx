@@ -1,0 +1,103 @@
+{
+    "version" : 6,
+    "schema" : "L6Preset",
+    "name" : "Elevacion",
+    "data" : {
+        "meta" : {
+            "name" : "Elevacion"
+        },
+        "tone" : {
+            "dsp0" : {
+                "block0" : {
+                    "@model" : "HD2_CompOpticalComp",
+                    "Comp"  : { "@max" : 10.0, "@min" : 0.0, "@type" : "Float", "@value" : 5.0 },
+                    "Gain"  : { "@max" : 10.0, "@min" : 0.0, "@type" : "Float", "@value" : 4.0 },
+                    "Level" : { "@max" : 10.0, "@min" : 0.0, "@type" : "Float", "@value" : 5.5 },
+                    "enabled" : true,
+                    "fs" : 524304,
+                    "no_snapshot_update" : false,
+                    "position" : 0,
+                    "post_level" : 0.0,
+                    "pre_level" : 0.0
+                },
+                "block1" : {
+                    "@model" : "HD2_AmpMatchlessDC30",
+                    "Bass"        : { "@max" : 10.0, "@min" : 0.0, "@type" : "Float", "@value" : 4.5 },
+                    "Brite_Switch": { "@max" : 1.0,  "@min" : 0.0, "@type" : "Float", "@value" : 1.0 },
+                    "Ch_Volume"   : { "@max" : 10.0, "@min" : 0.0, "@type" : "Float", "@value" : 7.0 },
+                    "Cut"         : { "@max" : 10.0, "@min" : 0.0, "@type" : "Float", "@value" : 4.5 },
+                    "Drive"       : { "@max" : 10.0, "@min" : 0.0, "@type" : "Float", "@value" : 2.5 },
+                    "Mid"         : { "@max" : 10.0, "@min" : 0.0, "@type" : "Float", "@value" : 5.5 },
+                    "Treble"      : { "@max" : 10.0, "@min" : 0.0, "@type" : "Float", "@value" : 7.5 },
+                    "enabled" : true,
+                    "fs" : 524304,
+                    "no_snapshot_update" : false,
+                    "position" : 1,
+                    "post_level" : 0.0,
+                    "pre_level" : 0.0
+                },
+                "block2" : {
+                    "@model" : "HD2_Cab2x12MatchlessDC30",
+                    "Distance"       : { "@max" : 10.0,   "@min" : 0.0,  "@type" : "Float", "@value" : 3.5 },
+                    "EarlyReflections": { "@max" : 10.0,  "@min" : 0.0,  "@type" : "Float", "@value" : 7.5 },
+                    "HighCut"        : { "@max" : 20000.0,"@min" : 1000.0,"@type" : "Float", "@value" : 8000.0 },
+                    "Level"          : { "@max" : 6.0,    "@min" : -6.0,  "@type" : "Float", "@value" : 0.0 },
+                    "LowCut"         : { "@max" : 1000.0, "@min" : 20.0,  "@type" : "Float", "@value" : 100.0 },
+                    "Mic"            : { "@max" : 17.0,   "@min" : 0.0,   "@type" : "Float", "@value" : 0.0 },
+                    "enabled" : true,
+                    "fs" : 524304,
+                    "no_snapshot_update" : false,
+                    "position" : 2,
+                    "post_level" : 0.0,
+                    "pre_level" : 0.0
+                },
+                "block3" : {
+                    "@model" : "HD2_ModEnsemble",
+                    "Depth" : { "@max" : 10.0, "@min" : 0.0, "@type" : "Float", "@value" : 3.0 },
+                    "Level" : { "@max" : 10.0, "@min" : 0.0, "@type" : "Float", "@value" : 5.0 },
+                    "Mix"   : { "@max" : 1.0,  "@min" : 0.0, "@type" : "Float", "@value" : 0.25 },
+                    "Rate"  : { "@max" : 10.0, "@min" : 0.0, "@type" : "Float", "@value" : 2.5 },
+                    "enabled" : true,
+                    "fs" : 524304,
+                    "no_snapshot_update" : false,
+                    "position" : 3,
+                    "post_level" : 0.0,
+                    "pre_level" : 0.0
+                },
+                "block4" : {
+                    "@model" : "HD2_DelayDualTap",
+                    "Feedback" : { "@max" : 10.0, "@min" : 0.0,   "@type" : "Float", "@value" : 4.5 },
+                    "Mix"      : { "@max" : 1.0,  "@min" : 0.0,   "@type" : "Float", "@value" : 0.28 },
+                    "Note"     : { "@max" : 11.0, "@min" : 0.0,   "@type" : "Float", "@value" : 7.0 },
+                    "Spread"   : { "@max" : 10.0, "@min" : 0.0,   "@type" : "Float", "@value" : 5.0 },
+                    "Time"     : { "@max" : 2.0,  "@min" : 0.001, "@type" : "Float", "@value" : 0.562 },
+                    "Treble"   : { "@max" : 10.0, "@min" : 0.0,   "@type" : "Float", "@value" : 5.0 },
+                    "enabled" : true,
+                    "fs" : 524304,
+                    "no_snapshot_update" : false,
+                    "position" : 4,
+                    "post_level" : 0.0,
+                    "pre_level" : 0.0
+                },
+                "block5" : {
+                    "@model" : "HD2_ReverbPlateReverb",
+                    "Decay"    : { "@max" : 10.0,  "@min" : 0.0, "@type" : "Float", "@value" : 6.5 },
+                    "Depth"    : { "@max" : 10.0,  "@min" : 0.0, "@type" : "Float", "@value" : 5.5 },
+                    "Mix"      : { "@max" : 1.0,   "@min" : 0.0, "@type" : "Float", "@value" : 0.35 },
+                    "Predelay" : { "@max" : 250.0, "@min" : 0.0, "@type" : "Float", "@value" : 18.0 },
+                    "Tone"     : { "@max" : 10.0,  "@min" : 0.0, "@type" : "Float", "@value" : 6.0 },
+                    "enabled" : true,
+                    "fs" : 524304,
+                    "no_snapshot_update" : false,
+                    "position" : 5,
+                    "post_level" : 0.0,
+                    "pre_level" : 0.0
+                }
+            },
+            "global" : {
+                "current_snapshot" : 0,
+                "tempo" : 120.0
+            }
+        }
+    }
+}
